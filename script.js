@@ -8,3 +8,5 @@ let pocetNavstevniku = 174;
 let pocetPredstaveni = 15;
 let prijem = cena*pocetNavstevniku*pocetPredstaveni
 
+document.body.innerHTML += "<p>Mesicni prijem divadla ze vstupneho je " + prijem + " EUR. </p>";
+
